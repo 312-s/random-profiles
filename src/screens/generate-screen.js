@@ -20,7 +20,7 @@ export default function GenerateScreen({navigation}) {
             numberPhone: userProfile.phone,
             address: userProfile.address
         };
-        usersProfilesContext.update(usersProfilesContext.profiles.concat([savingProfile]));
+        usersProfilesContext.update([savingProfile].concat(usersProfilesContext.profiles));
         setNewUserProfile(UserProfile.generateUserProfile);
     }
 
