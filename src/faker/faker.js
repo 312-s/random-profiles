@@ -2,7 +2,7 @@ import names from "./data/names.js";
 import patronymics from "./data/patronymics.js";
 import surnames from "./data/surnames.js";
 import addresses from "./data/addresses.js";
-import randomNumber from "../random-number.js";
+import randomNumber from "../code/random-number.js";
 
 export default class Faker {
     constructor(sex = 'men') {

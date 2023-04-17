@@ -2,7 +2,7 @@ import { Modal, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useState, useContext } from "react";
 import Field from "../ui-components/Field.js";
 import colors from "../ui-components/colors.js";
-import UserProfile from "../user-profile.js";
+import UserProfile from "../code/user-profile.js";
 import ProfilesUsers from '../context/profiles-context';
 import { Button, Icon } from '@rneui/themed';
 

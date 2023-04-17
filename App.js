@@ -6,8 +6,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import colors from './src/ui-components/colors.js';
 import GenerateScreen from './src/screens/generate-screen.js';
 import ProfilesUsers from './src/context/profiles-context.js';
-import loadUserProfiles from './src/load-user-profiles';
-import saveUserProfile from './src/save-user-profiles';
+import loadUserProfiles from './src/code/load-user-profiles.js';
+import saveUserProfile from './src/code/save-user-profiles.js';
 
 const Stack = createNativeStackNavigator();
 
