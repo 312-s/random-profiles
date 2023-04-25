@@ -1,4 +1,4 @@
-import Faker from "./faker/faker.js";
+import Faker from "../faker/faker.js";
 
 export default class UserProfile {
     #nameParts;

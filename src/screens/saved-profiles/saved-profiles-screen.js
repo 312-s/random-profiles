@@ -1,7 +1,7 @@
 import {Text, StyleSheet, ScrollView} from 'react-native';
 import {useState, useContext} from 'react';
 import {Button, Icon} from '@rneui/themed';
-import colors from '../../ui-components/colors.js';
+import colors from '../../ui-components//config/colors.js';
 import EditModal from './edit-modal.js';
 import CreateUserProfile from './create-user-profile.js';
 import ProfilesContext from '../../context/profiles-context';

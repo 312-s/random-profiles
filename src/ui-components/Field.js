@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View} from 'react-native';
 import { Icon } from '@rneui/themed';
-import colors from "./colors.js";
+import colors from ".//config/colors.js";
 
 export default function Field(props) {
 

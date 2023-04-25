@@ -2,7 +2,7 @@ import {StyleSheet, Text, View} from "react-native";
 import {Button} from "@rneui/themed";
 import { Icon } from '@rneui/themed';
 import Field from "../../ui-components/Field.js";
-import colors from "../../ui-components/colors.js";
+import colors from "../../ui-components//config/colors.js";
 
 
 /**

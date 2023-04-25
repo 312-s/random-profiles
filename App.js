@@ -3,7 +3,7 @@ import {StyleSheet, View, StatusBar} from 'react-native';
 import SavedProfilesScreen from './src/screens/saved-profiles/saved-profiles-screen';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import colors from './src/ui-components/colors.js';
+import colors from './src/ui-components//config/colors.js';
 import GenerateScreen from './src/screens/generate-screen.js';
 import ProfilesUsers from './src/context/profiles-context.js';
 import loadUserProfiles from './src/code/load-user-profiles.js';

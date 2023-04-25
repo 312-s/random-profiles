@@ -1,6 +1,6 @@
 import {Modal, StyleSheet, Text, View} from "react-native";
 import {Button, Icon, Input} from "@rneui/themed";
-import colors from "../../ui-components/colors.js";
+import colors from "../../ui-components//config/colors.js";
 
 /**
  * Assign the project to an employee.
